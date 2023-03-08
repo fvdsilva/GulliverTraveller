@@ -34,16 +34,14 @@
     <main>
         <div>
             <h2> Seu melhor guia de viagem para o mundo todo</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, quam itaque modi accusantium at
-                libero nisi amet commodi, est, corrupti laborum id. Eum, rerum sed magni quia maxime enim fuga veniam
-                voluptas similique quis voluptatem hic, nemo amet minima temporibus iure nobis. Dolor eos qui harum quas
-                aut eaque facilis.</p>
+            <p>Pensamos em tudo para você, desde passagens aéreas até hospedagem e
+                guia turístico no seu destino preferido.</p>
         </div>
 
 
         <div class="">
             <div class="">
-                <h2 class="">Destinos mais visitados</h2>
+                <h2 class="">Destinos mais buscados hoje no Brasil</h2>
                 <a href="#"><img src="imagens/sao-paulo.jpg" alt="São Paulo"></a>
                 <p>São Paulo</p>
             </div>
@@ -63,28 +61,31 @@
 
             <div class="box">
 
-                <a href="#"><img src="" alt="Monte Verde"></a>
+                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/monte-verde.jpg" alt="Monte Verde"></a>
                 <p>Monte Verde</p>
             </div>
 
-            <div class="box">
-                <a href="#"><img src="" alt="Campos do jordão"></a>
-                <p>Campos do jordão</p>
-            </div>
+            
 
             <div class="box">
-                <a href="#"><img src="" alt="Rio de janeiro"></a>
+                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/rio-de-janeiro.jpg" alt="Rio de janeiro"></a>
                 <p>Rio de janeiro</p>
             </div>
 
+            
 
             <div class="box">
-                <a href="#"><img src="" alt="Porto Seguro"></a>
+                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/Porto-Seguro.jpg" alt="Porto Seguro"></a>
                 <p>Porto Seguro</p>
             </div>
 
             <div class="box">
-                <a href="#"><img src="" alt="Araial do Cabo"></a>
+                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/campos do jordao.jpg" alt="Campos do jordão"></a>
+                <p>Campos do jordão</p>
+            </div>
+
+            <div class="box">
+                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/araial-do-cabo.jpg" alt="Araial do Cabo"></a>
                 <p>Araial do Cabo</p>
             </div>
         </div>
@@ -92,12 +93,35 @@
     </main>
 
 
-    <div class="button">
-        <p>Cadastre-se para ficar por dentro das novidades</p>
-        <label for="email">Email: </label>
-            <input type="emai" id="email" class="componete" class="componete" placeholder="Ex:joaodasilva@email.com">
-        <button type="submit"><strong>Enviar</strong></button>
-    </div>
+
+    <form class="form-acomodação" action="method" id="dados" name="dados">
+        <label for="acomodação">Selecione o tipo de acomodação</label>
+        <select name="acomodação" id="required">
+            <option value="0">Selecione uma opção</option>
+            <option value="1">Hotéis</option>
+            <option value="2">Apartamento</option>
+            <option value="3">Resorts</option>
+            <option value="4">Chalés</option>
+            <option value="5">Pousada</option>
+        </select>
+
+    </form>
+
+    
+        <form class="form-dados" action="" id="post" name="login">
+            <span class="form-titulo">Inscreva-se para receber ofertas exclusivas</span>
+    
+            <div>
+                <label for="email"></label>
+                <input class="input-cadastro" type="email:" id="email" placeholder="Insira seu e-mail">
+                <button class="button" type="submit">Enviar</button>
+                <p class="descricao-politica">Você receberá e-mails promocionais do traveller.</p>
+            </div>
+    
+    
+        </form>
+
+
 
     <footer>
         <p><a href="#"><i class="fa-brands fa-facebook"></i> </a><a href="#"><i
