@@ -8,14 +8,19 @@
   list-style-type: none;
   border-collapse: collapse;
 }
-
+/* variável gradiente imagem ao fundo apresentação */
+:root{
+  --gradient-start: rgba(0, 0, 0, 0.75);
+  --gradient-end: rgba(0, 0, 0, 0.9);
+}
+/* fim variável gradiente */
 body {
   font-family: "Poppins", sans-serif;
   font-size: 100%;
 }
 
 .header {
-  background-color: #003580;
+  background-color: black;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33,6 +38,7 @@ body {
   gap: 32px;
   color: #fff;
 }
+
 nav i {
   margin-right: 10px;
 }
@@ -44,26 +50,73 @@ nav i {
   color: #fff;
   font-weight: 700;
 }
+/* style imagem de appresentação */
+.inicio {
+  width: 100%;
+  min-height: 70vh;
+  background-position: 70%;
+  background-image: linear-gradient(var(--gradient-start),var(--gradient-end)), url(../imagens/img_apresentacao.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  color:#bebdbd;
+}
+/* fim style */
 
+/* style título de apresentação */
+.inicio h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #d1d0db;
+}
+/* sim título */
 
+/* style paragrafo apresentação */
+.inicio p {
+  font-weight: 400;
+  margin: 30px 0 30px;
+  width: 50%
+}
+/* fim paragrafo */
 
+/* largura seção destinos mais procurados */
+.destinos-br {
+  width: 100%;
+}
+/* fim largura */
 
+/* style título destinos mais procurados */
+.destinos-br h2{
+  margin: 20px;
+  text-align: center;
+  font-size: 4vmin;
+}
+/* fim style */
 
-
-
-
-
-
-
-
-
+/* style div contendo as imagens destinos mais procurados */
+.destinos-br div {
+  width: 25%;
+  height: 400px;
+  min-height: 50vh;
+  margin: 50px;
+  display: inline-flex;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* fim style */
 
 .container-titulo {
   margin-left: 25px;
   margin-top: 25px;
   font-size: 20px;
   color: #003580;
-  
+
 }
 
 .container {
@@ -76,12 +129,12 @@ nav i {
 
 
 .box {
- 
+
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   flex-direction: column;
   margin-right: 20px;
-  
+
 }
 
 .container-imagem {
@@ -89,47 +142,48 @@ nav i {
 }
 
 
-.form-acomodação{
-margin: 50px;
-font-weight: 700;
-font-size: 20px;
+.form-acomodação {
+  margin: 50px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 
 .form-dados {
   margin: 10px auto;
   width: 500px;
-   text-align: left;
- 
-  }
+  text-align: left;
 
-.form-titulo{
+}
+
+.form-titulo {
   margin: 5px;
   height: 900;
   font-weight: 700;
   font-size: 18px;
- 
+
 }
 
-  .input-cadastro{
-    width: 74%;
-    padding: 5px;
+.input-cadastro {
+  width: 74%;
+  padding: 5px;
 
- }
-
-
-.button{
-padding: 5px ;
-  
 }
-.descricao-politica{
+
+
+.button {
+  padding: 5px;
+
+}
+
+.descricao-politica {
   font-size: 12px;
   padding: 10px 0;
-  }
-  
+}
+
 footer {
   margin-top: 20px;
-  padding: 60px ;
+  padding: 60px;
   background-color: #bebdbd;
   text-align: center;
 }

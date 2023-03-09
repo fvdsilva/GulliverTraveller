@@ -6,86 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gulliver Traveller</title>
+    <!-- Linkando a CSS com o HTML -->
     <link rel="stylesheet" href="style.css">
-
+    <!-- Chamada Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-
-
-
+    <!-- menu principal -->
     <header class="header">
-        <h1 class="header-title">Traveller</h1>
+        <h1 class="header-title">Gulliver Traveller</h1>
         <nav>
             <ul class="header-menu">
                 <li><a href="#" class="menu-item"><i class="fa-solid fa-house"></i></a>Home</li>
                 <li><a href="#" class="menu-item"><i class="fa-solid fa-comment"></i></a>Sobre Mim</li>
                 <li><a href="#" class="menu-item"><i class="fa-solid fa-plane"></i></a>Viagens</li>
                 <li><a href="#" class="menu-item"><i class="fa-solid fa-suitcase"></i></a>Reservas</li>
-                <li><a href="#" class="menu-item"></a>Gastronomia</li>
+                <li><a href="#" class="menu-item"><i class="fa-solid fa-utensils"></i></a>Gastronomia</li>
             </ul>
         </nav>
 
     </header>
-
+    <!-- fim menu principal -->
     <main>
-        <div>
-            <h2> Seu melhor guia de viagem para o mundo todo</h2>
-            <p>Pensamos em tudo para você, desde passagens aéreas até hospedagem e
-                guia turístico no seu destino preferido.</p>
-        </div>
+        <!-- apresentação inicial -->
+        <section class="inicio">
+            <h2> Olá, eu sou o Gulliver!</h2>
+            <p>Seu melhor guia de viagem para o mundo todo. Pensando em você, reuni tudo o que precisa em um só lugar:
+                Informações sobre passagens aéreas, hospedagem, gastronomia e os melhores pontos turísticos para o seu
+                destino. Vamos, lá?</p>
+        </section>
+        <!-- fim apresentação inicial -->
 
-
-        <div class="">
-            <div class="">
-                <h2 class="">Destinos mais buscados hoje no Brasil</h2>
-                <a href="#"><img src="imagens/sao-paulo.jpg" alt="São Paulo"></a>
-                <p>São Paulo</p>
-            </div>
-            <div>
-                <a href="#"><img src="imagens/gramado.jpg" alt="Gramado"></a>
-                <p>Gramado</p>
-            </div>
-            <div>
-                <a href="#"><img src="imagens/Porto-de-Galinhas.jpg" alt="Porto de Galinhas"></a>
-                <p>Porto de Galinhas</p>
-            </div>
-        </div>
-
+        <!-- inicio destinos mais procurados Brasil -->
+        <section class="destinos-br">
+            <h2>Conheça o Top 3 destinos mais procurados hoje no Brasil</h2>
+            <div><a href="" class="button"><img src="imagens/sao-paulo.jpg" alt="Imagem de São Paulo">São Paulo</a></div>
+            <div><a href="" class="button"><img src="imagens/gramado.jpg" alt="Imagem de Gramado">Gramado</a></div>
+            <div><a href="" class="button"><img src="imagens/Porto-de-Galinhas.jpg" alt="Imagem de Porto de Galinhas">Porto de Galinhas</a></div>
+        </section>
+        <!-- fim destinos mais procurados Brasil -->
 
         <h2 class="container-titulo">Escolha seu destino</h2>
         <div class="container">
 
             <div class="box">
 
-                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/monte-verde.jpg" alt="Monte Verde"></a>
+                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/monte-verde.jpg"
+                        alt="Monte Verde"></a>
                 <p>Monte Verde</p>
             </div>
 
-            
+
 
             <div class="box">
-                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/rio-de-janeiro.jpg" alt="Rio de janeiro"></a>
+                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/rio-de-janeiro.jpg"
+                        alt="Rio de janeiro"></a>
                 <p>Rio de janeiro</p>
             </div>
 
-            
+
 
             <div class="box">
-                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/Porto-Seguro.jpg" alt="Porto Seguro"></a>
+                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/Porto-Seguro.jpg"
+                        alt="Porto Seguro"></a>
                 <p>Porto Seguro</p>
             </div>
 
             <div class="box">
-                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/campos do jordao.jpg" alt="Campos do jordão"></a>
+                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/campos do jordao.jpg"
+                        alt="Campos do jordão"></a>
                 <p>Campos do jordão</p>
             </div>
 
             <div class="box">
-                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/araial-do-cabo.jpg" alt="Araial do Cabo"></a>
+                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/araial-do-cabo.jpg"
+                        alt="Araial do Cabo"></a>
                 <p>Araial do Cabo</p>
             </div>
         </div>
@@ -107,19 +105,19 @@
 
     </form>
 
-    
-        <form class="form-dados" action="" id="post" name="login">
-            <span class="form-titulo">Inscreva-se para receber ofertas exclusivas</span>
-    
-            <div>
-                <label for="email"></label>
-                <input class="input-cadastro" type="email:" id="email" placeholder="Insira seu e-mail">
-                <button class="button" type="submit">Enviar</button>
-                <p class="descricao-politica">Você receberá e-mails promocionais do traveller.</p>
-            </div>
-    
-    
-        </form>
+
+    <form class="form-dados" action="" id="post" name="login">
+        <span class="form-titulo">Inscreva-se para receber ofertas exclusivas</span>
+
+        <div>
+            <label for="email"></label>
+            <input class="input-cadastro" type="email:" id="email" placeholder="Insira seu e-mail">
+            <button class="button" type="submit">Enviar</button>
+            <p class="descricao-politica">Você receberá e-mails promocionais do traveller.</p>
+        </div>
+
+
+    </form>
 
 
 
