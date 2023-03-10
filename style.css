@@ -85,9 +85,7 @@ nav i {
 
 /* largura seção destinos mais procurados */
 .destinos-br {
-  width: 100%;
- 
-  
+  width: 100%; 
 }
 /* fim largura */
 
@@ -96,7 +94,6 @@ nav i {
   margin: 20px;
   text-align: center;
   font-size: 4vmin;
- 
 }
 /* fim style */
 
@@ -106,20 +103,27 @@ nav i {
   height: 400px;
   min-height: 50vh;
   margin: 50px;
+  margin-top: 0;
   display: inline-flex;
   padding: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  text-align: center;
+}
+/* fim style */
 
+/* srtyle botão rodapé imgs destinos mais procurados */
+.button-br {
+  font-weight: 700;
+  color: black;
 }
 /* fim style */
 
 .container-titulo {
- margin-top: 60px;
+  margin-top: 60px;
   font-size: 22px;
   text-align: center;
-  
 }
 .containe-p{
   font-size: 18px;
