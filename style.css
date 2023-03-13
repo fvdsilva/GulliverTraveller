@@ -55,7 +55,7 @@ nav i {
   width: 100%;
   min-height: 70vh;
   background-position: 70%;
-  background-image: linear-gradient(var(--gradient-start),var(--gradient-end)), url(..//GulliverTraveller/imagens/img_apresentacao.jpg);
+  background-image: linear-gradient(var(--gradient-start),var(--gradient-end)), url(./imagens/img_apresentacao.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
