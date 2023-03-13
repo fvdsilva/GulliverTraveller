@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
@@ -83,14 +83,8 @@ nav i {
 }
 /* fim paragrafo */
 
-/* largura seção destinos mais procurados */
-.destinos-br {
-  width: 100%; 
-}
-/* fim largura */
-
 /* style título destinos mais procurados */
-.destinos-br h2{
+.destinos-titulo {
   margin: 20px;
   text-align: center;
   font-size: 4vmin;
@@ -98,22 +92,22 @@ nav i {
 /* fim style */
 
 /* style div contendo as imagens destinos mais procurados */
-.destinos-br div {
-  width: 25%;
-  height: 400px;
-  min-height: 50vh;
-  margin: 50px;
-  margin-top: 0;
-  display: inline-flex;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
+.destinos-br {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
 }
 /* fim style */
 
-/* srtyle botão rodapé imgs destinos mais procurados */
+.dstn-br {
+  margin-top: 0;
+  padding: 30px;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+/* style botão rodapé imgs destinos mais procurados */
 .button-br {
   font-weight: 700;
   color: black;
