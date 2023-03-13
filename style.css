@@ -55,7 +55,7 @@ nav i {
   width: 100%;
   min-height: 70vh;
   background-position: 70%;
-  background-image: linear-gradient(var(--gradient-start),var(--gradient-end)), url(../imagens/img_apresentacao.jpg);
+  background-image: linear-gradient(var(--gradient-start),var(--gradient-end)), url(..//GulliverTraveller/imagens/img_apresentacao.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -122,7 +122,7 @@ nav i {
 .containe-p{
   font-size: 18px;
  text-align: center;
- font-weight: 400;
+ font-weight: 500;
   
 }
 
@@ -141,9 +141,13 @@ nav i {
   justify-content: flex-start;
   flex-direction: column;
   margin-right: 20px;
-
+  text-align: center;
 }
 
+.box_p{
+  font-weight: 700;
+  color: black;
+}
 .container-imagem {
   height: 205px;
 }
@@ -179,14 +183,23 @@ nav i {
 
 
 .button {
-  padding: 5px;
+padding: 5px;
+color:#fff;
+  background-color: black;
+  transition:1s ;
+  border-radius:5px;
+ 
+}
 
+.button:hover{
+background-color:#fff;
+color: black;
 }
 
 .descricao-politica {
   font-size: 12px;
   padding: 10px 0;
-}
+ }
 
  /* inicio do rodape */
 footer {

@@ -9,6 +9,7 @@
 
     <!-- Linkando a CSS com o HTML -->
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/icons8-avião-decolando-50.png">
 
     <!-- Chamada Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -19,14 +20,14 @@
 <body>
     <!-- cabecalho -->
     <header class="header">
-        <h1 class="header-title">Gulliver Traveller</h1>
+        <h1 class="header-title">Traveller</h1>
         <nav>
             <ul class="header-menu">
-                <li><a href="#" class="menu-item"><i class="fa-solid fa-house"></i></a>Home</li>
-                <li><a href="#" class="menu-item"><i class="fa-solid fa-comment"></i></a>Sobre Mim</li>
-                <li><a href="#" class="menu-item"><i class="fa-solid fa-plane"></i></a>Viagens</li>
-                <li><a href="#" class="menu-item"><i class="fa-solid fa-suitcase"></i></a>Reservas</li>
-                <li><a href="#" class="menu-item"><i class="fa-solid fa-utensils"></i></a>Gastronomia</li>
+                <li><a href="#" class="menu-item"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a Sobre href="#" class="menu-item"><i class="fa-solid fa-comment"></i>Sobre Mim</a></li>
+                <li><a Viagens href="#" class="menu-item"><i class="fa-solid fa-plane"></i>Viagens</a></li>
+                <li><a Reservas href="#" class="menu-item"><i class="fa-solid fa-suitcase"></i>Reservas</a></li>
+                <li><a Gastronomia href="#" class="menu-item"><i class="fa-solid fa-utensils"></i>Gastronomia</a></li>
             </ul>
         </nav>
 
@@ -64,8 +65,8 @@
         <!-- fim destinos mais procurados Brasil -->
 
         <!-- inicio destinos -->
-        <h2 class="container-titulo">Destinos</h2>
-        <p class="containe-p">Alimente seu lado aventureiro com novas viagens!</p>
+        <h2 class="container-titulo">Alimente seu lado aventureiro com novas viagens!</h2>
+        <p class="containe-p">Seguem algumas opções:</p>
 
         <div class="container">
 
@@ -73,31 +74,31 @@
 
                 <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/monte-verde.jpg"
                         alt="Monte Verde"></a>
-                <p>Monte Verde</p>
+                <p class="box_p">Monte Verde</p>
             </div>
 
             <div class="box">
-                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/rio-de-janeiro.jpg"
-                        alt="Rio de janeiro"></a>
-                <p>Rio de janeiro</p>
+                <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/maragogi.jpg"
+                        alt="Maragogi"></a>
+                <p class="box_p">Maragogi</p>
             </div>
 
             <div class="box">
                 <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/Porto-Seguro.jpg"
                         alt="Porto Seguro"></a>
-                <p>Porto Seguro</p>
+                <p class="box_p">Porto Seguro</p>
             </div>
 
             <div class="box">
                 <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/campos do jordao.jpg"
                         alt="Campos do jordão"></a>
-                <p>Campos do jordão</p>
+                <p class="box_p">Campos do jordão</p>
             </div>
 
             <div class="box">
                 <a href="#"><img class="container-imagem" src="imagens/imagens-destinos/araial-do-cabo.jpg"
                         alt="Araial do Cabo"></a>
-                <p>Araial do Cabo</p>
+                <p class="box_p">Araial do Cabo</p>
             </div>
         </div>
 
@@ -108,18 +109,6 @@
     <!-- fim menu principal -->
 
 
-    <form class="form-acomodação" action="method" id="dados" name="dados">
-        <label for="acomodação">Selecione o tipo de acomodação</label>
-        <select name="acomodação" id="required">
-            <option value="0"disabled selected >Selecione uma opção</option>
-            <option value="1">Hotéis</option>
-            <option value="2">Apartamento</option>
-            <option value="3">Resorts</option>
-            <option value="4">Chalés</option>
-            <option value="5">Pousada</option>
-        </select>
-
-    </form>
 
     <!-- inicio cadastro email -->
 
@@ -130,7 +119,7 @@
             <label for="email"></label>
             <input class="input-cadastro" type="email:" id="email" placeholder="Insira seu e-mail">
             <button class="button" type="submit">Enviar</button>
-            <p class="descricao-politica">Você receberá e-mails promocionais do traveller.</p>
+            <p class="descricao-politica">Você receberá e-mails promocionais da Traveller.</p>
         </div>
 
 
